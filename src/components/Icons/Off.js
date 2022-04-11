@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function OffIcon(props) {
   return (
@@ -9,6 +8,6 @@ function OffIcon(props) {
         fill="white"
       />
     </Icon>
-  );
+  )
 }
-export default OffIcon;
+export default OffIcon

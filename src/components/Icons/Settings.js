@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function SettingsIcon(props) {
   return (
@@ -9,6 +8,6 @@ function SettingsIcon(props) {
         fill="white"
       />
     </Icon>
-  );
+  )
 }
-export default SettingsIcon;
+export default SettingsIcon

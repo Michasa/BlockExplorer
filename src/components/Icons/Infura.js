@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function InfuraIcon(props) {
   return (
@@ -11,6 +10,6 @@ function InfuraIcon(props) {
         fill="white"
       />
     </Icon>
-  );
+  )
 }
-export default InfuraIcon;
+export default InfuraIcon

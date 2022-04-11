@@ -1,10 +1,9 @@
-import React from 'react';
-import { ChakraProvider, extendTheme, Flex } from '@chakra-ui/react';
-import explorerTheme from '../styles/theme.js';
-import NavigationBar from '../components/NavigationBar';
-import BlockExplorerView from './BlockExplorerView';
+import { ChakraProvider, extendTheme, Flex } from '@chakra-ui/react'
+import explorerTheme from '../styles/theme.js'
+import NavigationBar from '../components/NavigationBar'
+import BlockExplorerView from './BlockExplorerView'
 
-const theme = extendTheme(explorerTheme);
+const theme = extendTheme(explorerTheme)
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
         <BlockExplorerView />
       </Flex>
     </ChakraProvider>
-  );
+  )
 }
 
-export default App;
+export default App

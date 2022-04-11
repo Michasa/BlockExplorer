@@ -1,9 +1,8 @@
-import { Box, Center, Text } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Center, Text } from '@chakra-ui/react'
 
 const TxnSquare = ({ index, blockNumber }) => {
   return (
-    <Center key={index} position="relative" m="1px" w={5} h={5} mx={0.5}>
+    <Center position="relative" m="1px" w={5} h={5} mx={0.5}>
       <Box
         className="transaction-square"
         tabIndex={0}
@@ -47,7 +46,7 @@ const TxnSquare = ({ index, blockNumber }) => {
         <Text>Transaction #{index + 1}</Text>
       </Box>
     </Center>
-  );
-};
+  )
+}
 
-export default TxnSquare;
+export default TxnSquare

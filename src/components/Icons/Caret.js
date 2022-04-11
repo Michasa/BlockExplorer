@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function Caret(props) {
   return (
@@ -10,6 +9,6 @@ function Caret(props) {
         fill="#3A307C"
       />
     </Icon>
-  );
+  )
 }
-export default Caret;
+export default Caret

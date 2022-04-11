@@ -1,5 +1,4 @@
-import { Box, Flex, IconButton } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Flex, IconButton } from '@chakra-ui/react'
 import {
   InfuraIcon,
   MeterIcon,
@@ -7,8 +6,8 @@ import {
   ExplorerIcon,
   SettingsIcon,
   OffIcon,
-} from '../Icons/';
-import Option from './Option';
+} from '../Icons/'
+import Option from './Option'
 
 function NavigationBar() {
   return (
@@ -42,7 +41,7 @@ function NavigationBar() {
         </Box>
       </Flex>
     </Flex>
-  );
+  )
 }
 
-export default NavigationBar;
+export default NavigationBar

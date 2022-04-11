@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function FolderIcon(props) {
   return (
@@ -9,6 +8,6 @@ function FolderIcon(props) {
         fill="white"
       />
     </Icon>
-  );
+  )
 }
-export default FolderIcon;
+export default FolderIcon

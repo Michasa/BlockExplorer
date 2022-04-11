@@ -9,3 +9,23 @@
   top: -12px;
   left: 39px;
 }
+
+div.block-container .blockCard {
+  transition: all 500ms ease;
+
+  &.not-selected {
+    box-shadow: none;
+    filter: brightness(60%);
+    transition: all 500ms ease;
+
+    .transaction-tooltip {
+      display: none;
+    }
+  }
+
+  &.selected {
+    transform: translateY(-10px);
+  }
+
+
+}

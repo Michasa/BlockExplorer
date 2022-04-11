@@ -1,5 +1,4 @@
-import { Icon } from '@chakra-ui/react';
-import React from 'react';
+import { Icon } from '@chakra-ui/react'
 
 function ExplorerIcon(props) {
   return (
@@ -9,6 +8,6 @@ function ExplorerIcon(props) {
         fill="white"
       />
     </Icon>
-  );
+  )
 }
-export default ExplorerIcon;
+export default ExplorerIcon

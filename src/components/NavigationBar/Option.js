@@ -1,5 +1,4 @@
-import { Button, Text } from '@chakra-ui/react';
-import React from 'react';
+import { Button, Text } from '@chakra-ui/react'
 
 const Option = ({ title, icon, isActive }) => {
   return (
@@ -23,7 +22,7 @@ const Option = ({ title, icon, isActive }) => {
       {icon}
       <Text pt={3.5}>{title}</Text>
     </Button>
-  );
-};
+  )
+}
 
-export default Option;
+export default Option

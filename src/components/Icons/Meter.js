@@ -1,5 +1,4 @@
 import { Icon } from '@chakra-ui/react'
-import React from 'react'
 
 function MeterIcon(props) {
   return (
