@@ -1,0 +1,11 @@
+.transaction-square:hover+.transaction-tooltip,
+.transaction-square:focus+.transaction-tooltip {
+  display: flex;
+  transition: opacity 500ms ease;
+  opacity: 1;
+  z-index: 1;
+  width: 282px;
+  height: 116px;
+  top: -12px;
+  left: 39px;
+}
