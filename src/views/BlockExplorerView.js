@@ -32,7 +32,7 @@ const BlockExplorerView = () => {
       })
       .then(newBlock => {
         if (newBlock) {
-          setSelectedBlockData(SELECTED_BLOCK_DEFAULT_VALUES)
+          setSelectedBlockData(newBlock)
           setMinedBlocks([newBlock, ...minedBlocks])
           setIsLoading(false)
         } else {

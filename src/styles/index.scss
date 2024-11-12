@@ -1,5 +1,4 @@
-.transaction-square:hover+.transaction-tooltip,
-.transaction-square:focus+.transaction-tooltip {
+.transaction-square:hover+.transaction-tooltip {
   display: flex;
   transition: opacity 500ms ease;
   opacity: 1;
@@ -15,7 +14,7 @@ div.block-container .blockCard {
 
   &.not-selected {
     box-shadow: none;
-    filter: brightness(60%);
+    background-color: gray;
     transition: all 500ms ease;
 
     .transaction-tooltip {

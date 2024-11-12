@@ -26,9 +26,6 @@ const BlockCard = ({
 
   return (
     <Flex
-      onClick={() => {
-        selectedBlockId === number ? clearSelectBlock() : selectBlock(number)
-      }}
       className={`blockCard ${returnVisibilityState()}`}
       flexDir="column"
       w={276}
@@ -42,6 +39,9 @@ const BlockCard = ({
       }}
     >
       <Flex
+        onClick={() => {
+          selectedBlockId === number ? clearSelectBlock() : selectBlock(number)
+        }}
         as="button"
         minH={73}
         p={3.5}
