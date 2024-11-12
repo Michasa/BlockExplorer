@@ -3,7 +3,10 @@ This project was bootstrapped with [Create React App, CRA](https://github.com/fa
 ## Installation
 
 - Please run `nvm use` within the terminal directory to use Node v14.16.0 as this was required by CRA. Once that has been set download all the project dependancies using `npm install`.
-- ⚠️ This project requires an [Infura Project ID Key](https://infura.io/) in order to function, make a copy of `.envsample`, rename to `.env` and fill the `REACT_APP_PROJECT_ID_KEY` property value with the API key. If you do not an error toast will alert you to this
+
+- ⚠️ This project requires an [Infura Project ID Key](https://infura.io/) in order to function so sign up from an account and on the key settings page copy the url from `Ethereum Mainnet`
+
+- Make a copy of `.envsample`, rename to `.env` and fill the `REACT_APP_ACTIVE_ENDPOINT` with the url you copied in the previous step
 
 ### Localhost
 

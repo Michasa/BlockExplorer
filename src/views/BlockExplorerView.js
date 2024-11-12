@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import BlocksDisplay from '../components/BlocksDisplay/index.js'
 import BlockStatsBar from '../components/BlockStatsBar/index.js'
 import { fetchNewBlockData, fetchNewBlockNumber } from '../utils/addNewBlock'
